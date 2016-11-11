@@ -3,11 +3,11 @@
 Controladores Utilizados:
 ActivateController 
 Dentro de este controlador se encuentran las siguientes funciones:
-ganadorDia:
+## ganadorDia:
 Obtener la suma de los pasos que da un usuario, recibidos el mes y el dia, obtenida la suma por usuario determinar el máximo.
-ganadorMes:
+## ganadorMes:
 Obtener la suma de los pasos que da un usuario, recibido el mes, obtenida la suma por usuario determinar el máximo.
-caminataMes:
+## caminataMes:
 Obtener los id de los usuarios que cumplen la condición de caminar 3 días seguidos por semana dentro de un mes específicado, y retornar los usuarios que cumplan con estas características
 
 # WebSocket:
