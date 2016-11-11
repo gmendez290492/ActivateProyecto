@@ -1,8 +1,6 @@
 # Reto Activate
-
-Controladores Utilizados:
-ActivateController 
-Dentro de este controlador se encuentran las siguientes funciones:
+## Controladores Utilizados:
+**ActivateController:** Dentro de este controlador se encuentran las siguientes funciones:
 ## ganadorDia:
 Obtener la suma de los pasos que da un usuario, recibidos el mes y el dia, obtenida la suma por usuario determinar el máximo.
 ## ganadorMes:
