@@ -1,25 +1,26 @@
-# CakePHP Application Skeleton
+# Reto Activate
 
-[![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
-[![License](https://img.shields.io/packagist/l/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
+## Controladores Utilizados:
 
-A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.x.
+# ActivateController 
+Dentro de este controlador se encuentran las siguientes funciones:
+# ganadorDia:
+Obtener la suma de los pasos que da un usuario, recibidos el mes y el dia, obtenida la suma por usuario determinar el máximo.
+# ganadorMes:
+Obtener la suma de los pasos que da un usuario, recibido el mes, obtenida la suma por usuario determinar el máximo.
+# caminataMes:
+Obtener los id de los usuarios que cumplen la condición de caminar 3 días seguidos por semana dentro de un mes específicado, y retornar los usuarios que cumplan con estas características
 
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
 
-## Installation
+# WebSocket:
 
-1. Download [Composer](http://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
+## Server.js:
+Se encuentra dentro de la carpeta webroot/js, el archivo establece la conexión a la base de datos y el almacenamiento dentro de la base de datos.
 
-If Composer is installed globally, run
-```bash
-composer create-project --prefer-dist cakephp/app [app_name]
-```
+## Index.html:
+Formulario de captura.
 
-You should now be able to visit the path to where you installed the app and see the default home page.
 
-## Configuration
-
-Read and edit `config/app.php` and setup the 'Datasources' and any other
-configuration relevant for your application.
+## Base de datos:
+	El archivo con la estructura y la base de datos se encuentra dentro de la carpeta webroot/db/reto_activate.sql.
+ 
